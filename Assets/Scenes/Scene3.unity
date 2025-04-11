@@ -470,16 +470,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37425c4a95712944f8152dab9c95b8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _camera: {fileID: 1937144130}
   _spriteRenderer: {fileID: 1329222946}
-  _touchPad: {fileID: 71976080}
   _active: {fileID: 21300000, guid: 388902a02633b8142b9d8b53eb170fbb, type: 3}
   _unactive: {fileID: 21300000, guid: 6c1b0eb0151c4f1429e5c952e6e7ac31, type: 3}
-  _radius: 0.15
-  _vertexLayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  _dragSpeed: 15
 --- !u!58 &1329222949
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -596,19 +589,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1357384403}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 71976082}
-        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
-        m_MethodName: SetMode
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1357384403
 MonoBehaviour:
   m_ObjectHideFlags: 0
